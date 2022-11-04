@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem; 
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.input:hover, #totalSum:hover{
+    cursor: pointer;
+}
+
+#input1, #input2, #totalSum{
+    width: 20rem;
+    height: 3rem;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: rgb(186, 184, 184);
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+}
+.total{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem; 
+margin-right: 4.8rem;
+}
+.total p{
+    font-size: 2rem;
+    padding-right: 0.5rem;
+    padding-top: 0.15rem;
+}
+#input1:hover, #input2:hover, #totalSum:hover{
+    border-color: rgb(69, 69, 95);
+}
+
+::placeholder{
+    color: rgb(191, 191, 191);
+    font-size: 1rem;
+}
